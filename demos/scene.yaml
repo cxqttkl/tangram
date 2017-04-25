@@ -49,21 +49,21 @@ layers:
                 width: 5px
                 order: 3
                 join: round
-                offset: -50
+                offset: -4px
             lines3:
                 style: lines
                 color: [.7, .7, .7]
                 width: 10px
                 order: 2
                 join: round
-                offset: -100
+                offset: -10px
             lines4:
                 style: lines
                 color: [.75, .75, .75]
                 width: 20px
                 order: 1
                 join: round
-                offset: -200
+                offset: -20px
 
     test:
         data: { source: test, layer: _default }
